@@ -1,6 +1,6 @@
 # Cars
 Cars
-A dataset of Cars is provided in a file (cars_input1.txt). The file has the three fields for each car: Name, Origin, Horsepower. Given this file and given a number N, and an origin O, print N cars that have horsepower greater than the average horsepower of all the cars from origin O. Note that the average horsepower should be computed from the cars of the given origin and not the whole dataset. The path to the dataset and the values of N and O will be passed as arguments to the program on command line.<br><br>
+A dataset of Cars is provided in a file (input.txt). The file has the three fields for each car: Name, Origin, Horsepower. Given this file and given a number N, and an origin O, print N cars that have horsepower greater than the average horsepower of all the cars from origin O. Note that the average horsepower should be computed from the cars of the given origin and not the whole dataset. The path to the dataset and the values of N and O will be passed as arguments to the program on command line.<br><br>
 
 
 For example, in the dataset below:<br><br>
@@ -52,3 +52,14 @@ Audi 100 LS,90.0,Europe<br><br>
   Audi 100 LS,90.0,Europe<br>
 
 ![6](https://user-images.githubusercontent.com/25060937/52166659-1d038d00-2736-11e9-9307-7390943db5b6.PNG)
+
+# Input.txt<br>
+![input](https://user-images.githubusercontent.com/25060937/52166807-2857b800-2738-11e9-9cea-7a355a47b790.PNG)
+<br><br>
+# Temp.txt<br>
+![temp](https://user-images.githubusercontent.com/25060937/52166830-68b73600-2738-11e9-87b8-70ecb2e2547a.PNG)
+<br><br>
+# Output.txt<br>
+![output](https://user-images.githubusercontent.com/25060937/52166829-67860900-2738-11e9-8040-616f992036d0.PNG)
+<br><br>
+
