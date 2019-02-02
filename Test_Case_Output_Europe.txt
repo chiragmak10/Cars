@@ -1,0 +1,3 @@
+Audi 100 LS,Europe,90.0
+Peugeot 504,Europe,87.0
+Volkswagen 1131 Deluxe Sedan,Europe,46.0

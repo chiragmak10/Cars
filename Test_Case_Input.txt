@@ -1,0 +1,12 @@
+Chevrolet Chevelle Malibu,US,130.0
+	
+Buick Skylark 320,US,165.0
+	
+Plymouth Satellite,US,150.0
+	
+Volkswagen 1131 Deluxe Sedan,Europe,46.0
+	
+Peugeot 504,Europe,87.0
+	
+Audi 100 LS,Europe,90.0
+

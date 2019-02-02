@@ -1,0 +1,3 @@
+Chevrolet Chevelle Malibu,US,130.0
+Buick Skylark 320,US,165.0
+Plymouth Satellite,US,150.0
