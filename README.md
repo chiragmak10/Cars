@@ -1,2 +1,54 @@
 # Cars
-For the given File and given a number N, and an origin O, print N cars that have horsepower greater than the average horsepower of all the cars from origin O
+Cars
+A dataset of Cars is provided in a file (cars_input1.txt). The file has the three fields for each car: Name, Origin, Horsepower. Given this file and given a number N, and an origin O, print N cars that have horsepower greater than the average horsepower of all the cars from origin O. Note that the average horsepower should be computed from the cars of the given origin and not the whole dataset. The path to the dataset and the values of N and O will be passed as arguments to the program on command line.
+
+
+For example, in the dataset below:
+	
+
+Chevrolet Chevelle Malibu,130.0,US	
+Buick Skylark 320,165.0,US
+Plymouth Satellite,150.0,US
+Volkswagen 1131 Deluxe Sedan,46.0,Europe
+Peugeot 504,87.0,Europe
+Audi 100 LS,90.0,Europe
+
+
+Given N=1 and O=US, the output should be:
+Buick Skylark 320,165.0,US
+
+![1](https://user-images.githubusercontent.com/25060937/52166625-bda57d00-2735-11e9-9ae2-719910542638.PNG)
+
+
+Given N=2 and O=US, the output should be:	
+Buick Skylark 320,165.0,US
+Plymouth Satellite,150.0,US
+
+![2](https://user-images.githubusercontent.com/25060937/52166633-d0b84d00-2735-11e9-8d1a-d96792b6e63d.PNG)
+
+
+Given N=3 and O=US, the output should be:
+Buick Skylark 320,165.0,US
+Plymouth Satellite,150.0,US
+
+![3](https://user-images.githubusercontent.com/25060937/52166645-e7f73a80-2735-11e9-81ab-72c37b4396da.PNG)
+
+
+Similarly,
+Given N=1 and O=Europe, the output should be:
+Audi 100 LS,90.0,Europe
+
+![4](https://user-images.githubusercontent.com/25060937/52166654-f7768380-2735-11e9-89e9-87c7ddcd1313.PNG)
+
+
+Given N=2 and O=Europe, the output should be:
+Peugeot 504,87.0,Europe
+Audi 100 LS,90.0,Europe
+
+![5](https://user-images.githubusercontent.com/25060937/52166655-078e6300-2736-11e9-8e3c-20d97d2a4dd2.PNG)
+
+Given N=3 and O=Europe, the output should be:	
+Peugeot 504,87.0,Europe
+Audi 100 LS,90.0,Europe
+
+![6](https://user-images.githubusercontent.com/25060937/52166659-1d038d00-2736-11e9-9307-7390943db5b6.PNG)
