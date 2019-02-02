@@ -17,7 +17,6 @@ public class analyse
         // loop for each line of input file
         while(line != null)
         {          
-            
             String[] words = line.split(",");
             int l = words.length;
 
@@ -55,7 +54,7 @@ public class analyse
         System.out.println("Enter the Origin");
         String O = sc.next();
 
-        int avg = ob.analysis("input.txt", "temp.txt", O); // reading input from master_as.txt file and creating temporary file (temp.txt) 
+        int avg = ob.analysis("input.txt", "temp.txt", O); // reading input from input.txt file and creating temporary file (temp.txt) 
         
         // PrintWriter object for output file
         PrintWriter pw = new PrintWriter("output.txt");        
